@@ -111,16 +111,6 @@ export default function AboutMe() {
             digital ideas to life!
           </p>
         </div>
-        {/* <div className="xl:w-1/2 w-full justify-center items-center space-y-6 mt-6">
-          <h2 className=" text-linkColor sm:text-6xl italic   text-3xl text-center shadow-inherit rounded-3xl">
-            About Me
-          </h2>
-          <p className=" text-textColor italic bg-bgColor border-t-8 border-l-8 text-center p-4 sm:text-xl text-[10px] rounded-xl shadow-inner">
-            Passionate about digital creation and problem solving, I am a
-            computer scientist and web developer determined to transform ideas
-            into innovative and efficient solutions.
-          </p>
-        </div> */}
       </div>
     </div>
   );
