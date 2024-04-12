@@ -1,10 +1,11 @@
+import img from "../assets/MakIMG-removebg-preview.png";
 export default function Banner() {
   return (
     <>
       <div className="relative xl:h-[90vh] bg-[#f3f1f5]">
         <div className="w-full h-full flex flex-row p-10 justify-between items-center">
           <img
-            src="src/assets/MakIMG-removebg-preview.png"
+            src={img}
             alt="Image 1"
             className=" w-1/2 h-full object-contain rounded-6xl"
           />
