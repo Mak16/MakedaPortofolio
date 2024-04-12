@@ -2,17 +2,20 @@ import img from "../assets/MakIMG-removebg-preview.png";
 export default function Banner() {
   return (
     <>
-      <div className="relative xl:h-[90vh] bg-[#f3f1f5]">
-        <div className="w-full h-full flex flex-row p-10 justify-between items-center">
+      <div className="relative xl:h-[90vh] bg-bgColor">
+        <div className="w-full h-full flex xl:flex-row flex-col p-10 justify-between items-center">
           <img
             src={img}
             alt="Image 1"
-            className=" w-1/2 h-full object-contain rounded-6xl"
+            className=" sm:w-1/2 w-full xl:h-full h-1/2 object-contain rounded-6xl"
           />
-          <div className="w-1/2 justify-center items-center space-y-4">
-            <p className="text-linkColor text-sm sm:text-3xl">Hello!</p>
-            <p className="text-textColor text-sm sm:text-3xl w-full xl:w-1/2 text-left xl:text-justify">
-              I'm Makeda Banza, Graduated in IT and Web and Mobile Developer.
+          <div className="xl:w-1/2 w-full justify-center items-center space-y-4">
+            <p className="text-linkColor sm:text-6xl text-xl text-center xl:mt-0 mt-5 xl:text-left italic">
+              Hello!
+            </p>
+            <p className="text-textColor text-sm xl:text-3xl italic w-full xl:w-1/2 text-center xl:text-left">
+              I'm Makeda Banza, I have a degree in computer science and I'm a
+              Web and Mobile Developer based in Democratic Republic of Congo.
             </p>
           </div>
         </div>

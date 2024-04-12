@@ -7,19 +7,30 @@ export default function Header() {
 
   const links = [
     {
-      name: "About me",
+      name: "Home",
       link: "",
-      className: "text-linkColor text-xl",
+      className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
     {
-      name: "Projects",
+      name: "About",
       link: "",
-      className: "text-linkColor text-xl",
+      className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
+    {
+      name: "Services",
+      link: "",
+      className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
+    },
+    // {
+    //   name: "Skills",
+    //   link: "",
+    //   className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
+    // },
     {
       name: "Contact",
       link: "tel:243825505783",
-      className: "text-linkColor text-xl",
+      className:
+        "text-textColor  hover:text-linkFocusColor sm:text-xl text-lg bg-linkColor mt-2 sm:mt-0 hover:bg-bgColor py-2 px-6 rounded-3xl",
     },
   ];
   const closeMenu = () => {
@@ -29,10 +40,10 @@ export default function Header() {
     <>
       <div className="">
         <div className="flex flex-row justify-between sm:mx-10 mx-5 py-2 bg-white my-2 items-center">
-          <Link to="" className="sm:text-3xl text-2xl font-bold text-textColor">
+          <Link to="" className="sm:text-2xl text-lg font-bold text-textColor">
             Makeda
           </Link>
-          <ul className="hidden sm:flex  ">
+          <ul className="hidden sm:flex gap-10">
             {links.map((link) => (
               <li key={link.name}>
                 <Link to={link.link} className={link.className}>

@@ -7,6 +7,7 @@ export default {
         linkColor: "#b974da",
         linkFocusColor: "#7e10be",
         textColor: "#3e3c3c",
+        bgColor: "#f3f1f5",
       },
     },
   },
