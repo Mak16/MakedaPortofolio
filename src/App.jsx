@@ -6,13 +6,13 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <>
+    <div className="scroll-smooth">
       <Header />
       <Banner />
       <AboutMe sectionId="about" />
       <Services sectionId="service" />
       <Footer sectionId="contact" />
-    </>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function Services() {
   return (
-    <div className="bg-bgColor">
+    <div id="service" className="bg-bgColor">
       <div className="w-full justify-center items-center px-4 py-10 space-y-4">
         <p className="text-linkColor sm:text-6xl text-3xl text-center xl:mt-0 mt-5 italic">
           Services

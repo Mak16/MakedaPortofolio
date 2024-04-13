@@ -13,17 +13,17 @@ export default function Header() {
     },
     {
       name: "About",
-      link: "about",
+      link: "#about",
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
     {
       name: "Services",
-      link: "service",
+      link: "#service",
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
     {
       name: "Contact",
-      link: "contact",
+      link: "#contact",
       className:
         "text-textColor  hover:text-linkFocusColor sm:text-xl text-lg bg-linkColor mt-2 sm:mt-0 hover:bg-bgColor py-2 px-6 rounded-3xl",
     },
@@ -33,7 +33,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className="relative">
+      <div id="up" className="relative">
         <div className="flex flex-row justify-between  py-4 xl:px-10 px-5 top-0 bg-white items-center fixed w-full">
           <Link to="" className="sm:text-2xl text-lg font-bold text-textColor">
             Makeda
@@ -41,9 +41,9 @@ export default function Header() {
           <ul className="hidden sm:flex gap-10">
             {links.map((link) => (
               <li key={link.name}>
-                <Link to={link.link} className={link.className}>
+                <a href={link.link} className={link.className}>
                   {link.name}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
@@ -73,9 +73,9 @@ export default function Header() {
           >
             {links.map((link, index) => (
               <li className={link.className} key={index}>
-                <Link to={link.link} onClick={closeMenu}>
+                <a href={link.link} onClick={closeMenu}>
                   {link.name}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

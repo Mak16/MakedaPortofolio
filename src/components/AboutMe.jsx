@@ -3,7 +3,7 @@ import img from "../assets/MakIMG-removebg-preview.png";
 
 export default function AboutMe() {
   return (
-    <div className="bg-bgColor xl:py-10 xl:px-32 p-5">
+    <div id="about" className="bg-bgColor xl:py-10 xl:px-32 p-5">
       <div className="flex xl:flex-row flex-col bg-white shadow-2xl xl:px-5 xl:py-10 p-5">
         <div className="xl:w-1/2 w-full space-y-10">
           <div className="flex xl:flex-row flex-col my-4">

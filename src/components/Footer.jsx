@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <div className=" bg-[#969199] space-y-10 py-5">
+      <div id="contact" className=" bg-[#969199] space-y-10 py-5">
         <p className="text-white sm:text-6xl text-3xl text-center xl:mt-0 mt-5 italic">
           Contact Me
         </p>
@@ -70,8 +70,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="py-5 bg-[#d7c9e1] flex justify-center items-center">
-        <p className="text-textColor">
-          &copy; Copyright <strong>Makeda</strong>. All Rights Reserved
+        <p className="text-textColor flex flex-row">
+          &copy; Copyright <strong>Makeda</strong>. All Rights Reserved.
+          <a href="#up" className="flex flex-row mx-2 text-linkColor">
+            <Icon icon="subway:up-2" className=" w-3 h-3 mt-2" />
+          </a>
         </p>
       </div>
     </>
