@@ -9,9 +9,9 @@ function App() {
     <>
       <Header />
       <Banner />
-      <AboutMe />
-      <Services />
-      <Footer />
+      <AboutMe sectionId="about" />
+      <Services sectionId="service" />
+      <Footer sectionId="contact" />
     </>
   );
 }

@@ -13,22 +13,17 @@ export default function Header() {
     },
     {
       name: "About",
-      link: "",
+      link: "about",
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
     {
       name: "Services",
-      link: "",
+      link: "service",
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
-    // {
-    //   name: "Skills",
-    //   link: "",
-    //   className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
-    // },
     {
       name: "Contact",
-      link: "tel:243825505783",
+      link: "contact",
       className:
         "text-textColor  hover:text-linkFocusColor sm:text-xl text-lg bg-linkColor mt-2 sm:mt-0 hover:bg-bgColor py-2 px-6 rounded-3xl",
     },
@@ -38,8 +33,8 @@ export default function Header() {
   };
   return (
     <>
-      <div className="">
-        <div className="flex flex-row justify-between sm:mx-10 mx-5 py-2 bg-white my-2 items-center">
+      <div className="relative">
+        <div className="flex flex-row justify-between  py-4 xl:px-10 px-5 top-0 bg-white items-center fixed w-full">
           <Link to="" className="sm:text-2xl text-lg font-bold text-textColor">
             Makeda
           </Link>

@@ -3,8 +3,8 @@ import img from "../assets/MakIMG-removebg-preview.png";
 
 export default function AboutMe() {
   return (
-    <div className="bg-bgColor sm:py-10 sm:px-32 p-5">
-      <div className="flex xl:flex-row flex-col bg-white shadow-2xl sm:px-5 sm:py-10 p-5">
+    <div className="bg-bgColor xl:py-10 xl:px-32 p-5">
+      <div className="flex xl:flex-row flex-col bg-white shadow-2xl xl:px-5 xl:py-10 p-5">
         <div className="xl:w-1/2 w-full space-y-10">
           <div className="flex xl:flex-row flex-col my-4">
             <img src={img} alt="Image 1" className="object-contain w-40 h-40" />
@@ -76,6 +76,14 @@ export default function AboutMe() {
               <p className=" text-textColor">TAILWIND CSS</p>
               <ProgressBar
                 completed={80}
+                baseBgColor="#d9b5ec"
+                bgColor="#7e10be"
+              />
+            </div>
+            <div>
+              <p className=" text-textColor">NODE JS</p>
+              <ProgressBar
+                completed={65}
                 baseBgColor="#d9b5ec"
                 bgColor="#7e10be"
               />

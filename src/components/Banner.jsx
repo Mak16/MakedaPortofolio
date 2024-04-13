@@ -2,7 +2,7 @@ import img from "../assets/MakIMG-removebg-preview.png";
 export default function Banner() {
   return (
     <>
-      <div className="xl:h-[90vh] bg-bgColor">
+      <div className="xl:h-[90vh] bg-bgColor mt-8">
         <div className="w-full h-full flex xl:flex-row flex-col p-10 justify-between items-center">
           <img
             src={img}
