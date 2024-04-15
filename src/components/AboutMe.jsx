@@ -40,7 +40,7 @@ export default function AboutMe() {
             <div>
               <p className=" text-textColor">CSS</p>
               <ProgressBar
-                completed={60}
+                completed={85}
                 baseBgColor="#d9b5ec"
                 bgColor="#7e10be"
               />
@@ -84,6 +84,14 @@ export default function AboutMe() {
               <p className=" text-textColor">NODE JS</p>
               <ProgressBar
                 completed={65}
+                baseBgColor="#d9b5ec"
+                bgColor="#7e10be"
+              />
+            </div>
+            <div>
+              <p className=" text-textColor">EXPRESS JS</p>
+              <ProgressBar
+                completed={60}
                 baseBgColor="#d9b5ec"
                 bgColor="#7e10be"
               />
