@@ -25,7 +25,6 @@ export default function Skills() {
               <p className=" text-textColor font-bold">Phone: </p>
               <p className="text-textColor">(+243)825505783/993255720</p>
             </div>
-            {/* </div> */}
           </div>
           <div className="space-y-3">
             <h2 className=" text-linkColor text-3xl text-center">Languages</h2>

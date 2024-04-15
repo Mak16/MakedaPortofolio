@@ -1,3 +1,4 @@
+import CV from "../assets/Makeda_Banza_CV.pdf.pdf";
 export default function AboutMe() {
   return (
     <div id="about" className="bg-bgColor xl:py-10 xl:px-32 p-5">
@@ -30,6 +31,21 @@ export default function AboutMe() {
             objectives. I look forward to collaborating with you to bring your
             digital ideas to life!
           </p>
+          <div className="flex justify-center items-center p-4">
+            <a
+              className=" text-linkColor text-center flex items-center  p-4 rounded-xl w-36 justify-center"
+              href={CV}
+              download
+            >
+              Download CV
+            </a>
+          </div>
+          {/* <a
+            className=" text-textColor bg-linkColor text-center flex items-center  p-4 rounded-xl w-36 justify-center"
+            href=""
+          >
+            Download CV
+          </a> */}
         </div>
       </div>
     </div>
