@@ -6,26 +6,26 @@ export default function AboutMe() {
     <div id="about" className="bg-bgColor xl:py-10 xl:px-32 p-5">
       <div className="flex xl:flex-row flex-col bg-white shadow-2xl xl:px-5 xl:py-10 p-5">
         <div className="xl:w-1/2 w-full space-y-10">
-          <div className="flex xl:flex-row flex-col my-4">
-            <img src={img} alt="Image 1" className="object-contain w-40 h-40" />
-            <div className="mx-4 space-y-4">
-              <div className="flex flex-row gap-2">
-                <p className=" text-textColor font-bold">Name: </p>
-                <p className="text-textColor">Makeda Banza</p>
-              </div>
-              <div className="flex flex-row gap-2">
-                <p className=" text-textColor font-bold">Profile: </p>
-                <p className="text-textColor">full stack developer</p>
-              </div>
-              <div className="flex flex-row gap-2">
-                <p className=" text-textColor font-bold">Email: </p>
-                <p className="text-textColor">makedabanza16@gmail.com</p>
-              </div>
-              <div className="flex flex-row gap-2">
-                <p className=" text-textColor font-bold">Phone: </p>
-                <p className="text-textColor">(+243)825505783/993255720</p>
-              </div>
+          {/* <div className="flex xl:flex-row flex-col my-4"> */}
+          {/* <img src={img} alt="Image 1" className="object-contain w-40 h-40" /> */}
+          <div className="mx-4 sm:mx-10 space-y-4">
+            <div className="flex flex-row gap-2">
+              <p className=" text-textColor font-bold">Name: </p>
+              <p className="text-textColor">Makeda Banza</p>
             </div>
+            <div className="flex flex-row gap-2">
+              <p className=" text-textColor font-bold">Profile: </p>
+              <p className="text-textColor">full stack developer</p>
+            </div>
+            <div className="flex flex-row gap-2">
+              <p className=" text-textColor font-bold">Email: </p>
+              <p className="text-textColor">makedabanza16@gmail.com</p>
+            </div>
+            <div className="flex flex-row gap-2">
+              <p className=" text-textColor font-bold">Phone: </p>
+              <p className="text-textColor">(+243)825505783/993255720</p>
+            </div>
+            {/* </div> */}
           </div>
           <div className="w-[90%] m-auto space-y-3">
             <h2 className=" text-linkColor text-3xl">SKILLS</h2>
@@ -48,7 +48,7 @@ export default function AboutMe() {
             <div>
               <p className=" text-textColor">JAVASRIPT</p>
               <ProgressBar
-                completed={85}
+                completed={75}
                 baseBgColor="#d9b5ec"
                 bgColor="#7e10be"
               />
@@ -98,7 +98,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-        <div className="xl:w-1/2 w-full justify-center items-center p-4 space-y-4">
+        <div className="xl:w-1/2 w-full justify-center items-center px-4 space-y-4">
           <p className="text-linkColor sm:text-6xl text-3xl text-center xl:mt-0 mt-5 xl:text-left italic">
             About Me
           </p>
