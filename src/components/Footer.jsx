@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col justify-center items-center w-1/6 space-y-4">
             <Link
-              to="www.linkedin.com/in/makeda-banza-ba33b9248"
+              to="https://www.linkedin.com/in/makeda-banza-ba33b9248/"
               target="blanck"
             >
               <Icon
