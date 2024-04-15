@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/mak16/LYMM">
+  <!-- <a href="https://github.com/Mak16/MakedaPortofolio">
     <img src="https://mak16.github.io/LYMM/assets/logo-4dplT6iu.png" alt="Logo" width="80" height="80">
   </a> -->
 
@@ -65,13 +65,13 @@ Project Link: [https://github.com/Mak16/MakedaPortofolio](https://github.com/Mak
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/mak16/LYMM.svg?style=for-the-badge
-[contributors-url]: https://github.com/mak16/LYMM/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mak16/LYMM.svg?style=for-the-badge
-[forks-url]: https://github.com/mak16/LYMM/network/members
-[stars-shield]: https://img.shields.io/github/stars/mak16/LYMM.svg?style=for-the-badge
-[stars-url]: https://github.com/mak16/LYMM/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mak16/LYMM.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/mak16/MakedaPortofolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/Mak16/MakedaPortofolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mak16/MakedaPortofolio.svg?style=for-the-badge
+[forks-url]: https://github.com/Mak16/MakedaPortofolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/mak16/MakedaPortofolio.svg?style=for-the-badge
+[stars-url]: https://github.com/Mak16/MakedaPortofolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mak16/MakedaPortofolio.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
