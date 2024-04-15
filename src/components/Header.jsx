@@ -17,6 +17,11 @@ export default function Header() {
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
     },
     {
+      name: "Skills",
+      link: "#skills",
+      className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
+    },
+    {
       name: "Services",
       link: "#service",
       className: "text-linkColor  hover:text-linkFocusColor sm:text-xl text-lg",
