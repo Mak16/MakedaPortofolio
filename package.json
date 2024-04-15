@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "ntl deploy",
+    "deploy": "netlify build",
     "dev": "vite",
     "build": "vite build",
-    "deployntl": "ntl deploy",
-    "buildntl": "netlify build",
+    "prod": "netlify deploy --prod",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
